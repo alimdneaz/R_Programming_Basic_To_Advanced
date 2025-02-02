@@ -32,8 +32,31 @@ write.csv(df.subset,"./data/subsetdata.csv",row.names =F)
 
 # Sink
 
+sink("output.txt")
+df = read.csv("./data/download_data_forth50.csv", header = TRUE)
+dim(df)
+
+names(df)
+
+str(df)
+
+head(df)
+
+x <- 1:100
+y <- 101:200
+
+model <- lm(y~x)
+summary(model)
+sink()
 
 
+sink("output_regression.txt")
+x <- 1:100
+y <- 101:200
+
+model <- lm(y~x)
+summary(model)
+sink()
 
 
 
