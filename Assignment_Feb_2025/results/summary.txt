@@ -1,0 +1,24 @@
+      A025             A026             A027             A029             A030            A032             A034     
+ Min.   :1.00     Min.   :1.00     Min.   :0.00     Min.   :0.0000   Min.   :0.000   Min.   :0.0000   Min.   :0.00  
+ 1st Qu.:1.00     1st Qu.:1.00     1st Qu.:1.00     1st Qu.:0.0000   1st Qu.:0.000   1st Qu.:0.0000   1st Qu.:0.00  
+ Median :1.00     Median :1.00     Median :1.00     Median :0.0000   Median :1.000   Median :1.0000   Median :0.00  
+ Mean   :1.15     Mean   :1.31     Mean   :0.76     Mean   :0.4644   Mean   :0.557   Mean   :0.6849   Mean   :0.21  
+ 3rd Qu.:1.00     3rd Qu.:2.00     3rd Qu.:1.00     3rd Qu.:1.0000   3rd Qu.:1.000   3rd Qu.:1.0000   3rd Qu.:0.00  
+ Max.   :2.00     Max.   :3.00     Max.   :1.00     Max.   :1.0000   Max.   :1.000   Max.   :1.0000   Max.   :1.00  
+ NA's   :284740   NA's   :285908   NA's   :213235   NA's   :2993     NA's   :4964    NA's   :2501     NA's   :6579  
+      A035            A038             A039            A040            A041            A042            A047       
+ Min.   :0.000   Min.   :0.0000   Min.   :0.000   Min.   :0.000   Min.   :0.000   Min.   :0.000   Min.   :0.0     
+ 1st Qu.:0.000   1st Qu.:0.0000   1st Qu.:0.000   1st Qu.:0.000   1st Qu.:0.000   1st Qu.:0.000   1st Qu.:0.0     
+ Median :1.000   Median :0.0000   Median :0.000   Median :0.000   Median :0.000   Median :0.000   Median :1.0     
+ Mean   :0.664   Mean   :0.3559   Mean   :0.361   Mean   :0.388   Mean   :0.303   Mean   :0.385   Mean   :0.7     
+ 3rd Qu.:1.000   3rd Qu.:1.0000   3rd Qu.:1.000   3rd Qu.:1.000   3rd Qu.:1.000   3rd Qu.:1.000   3rd Qu.:1.0     
+ Max.   :1.000   Max.   :1.0000   Max.   :1.000   Max.   :1.000   Max.   :1.000   Max.   :1.000   Max.   :1.0     
+ NA's   :2593    NA's   :3070     NA's   :10958   NA's   :5223    NA's   :6498    NA's   :3152    NA's   :424068  
+      A048       
+ Min.   :0.0     
+ 1st Qu.:0.0     
+ Median :0.0     
+ Mean   :0.4     
+ 3rd Qu.:1.0     
+ Max.   :1.0     
+ NA's   :424020  
