@@ -25,5 +25,16 @@ A042 - Important child qualities: obedience
 A047 - Abortion when child physically handicapped
 A048 - Abortion when woman not married
 
-
+New Addition
+A001 - Important in life: Family
+A005 - Important in life: Work
+A006 - Important in life: Religion
+A007 - Service to others important in life
+A058 - Spend time with friends
+A060 - Spend time with people at your church, mosque or synagogue
+A064 - Belong to social welfare service for elderly, handicapped or deprived people
+A065 - Member: Belong to religious organization
+A066 - Member: Belong to education, arts, music or cultural activities
+A169 - Good human relationships
+A170 - Satisfaction with your life
 After Correlation Matrix...

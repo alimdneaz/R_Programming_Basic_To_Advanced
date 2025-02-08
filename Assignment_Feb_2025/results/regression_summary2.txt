@@ -1,0 +1,5 @@
+
+Call:
+lm(formula = formula, data = df4)
+
+Residuals:
