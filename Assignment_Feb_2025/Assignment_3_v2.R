@@ -28,6 +28,8 @@ df <- read_sav("F00011409-Trends_VS_1981_2022_sav_v4_0/Trends_VS_1981_2022_sav_v
 View(df)
 str(df)
 dim(df)
+
+
 # Dependent Variable: A025 - Respect and love for parents
 # Independent Variables: 
 # A026 - Parents responsibilities to their children
@@ -57,32 +59,26 @@ dim(df)
 # A170 - Satisfaction with your life 
 
 
-
-# Research question: How do different child-rearing values and parental responsibilities influence respect and love for parents.
-# 4. Hypothesis
-# H0: There is no significant relationship between important child qualities and respect and love for parents.
-# H1: There is a significant relationship between important child qualities and respect and love for parents.
-
-
 # 5. Subset The data with selected variables
 varstoselect <- c("A025", "A026", "A027", "A029", "A030", "A032", "A034",
                   "A035", "A038", "A039", "A040", "A041", "A042", "A047",
                   "A048", "A001", "A005", "A006", "A007", "A058", "A060",
                   "A064","A065","A066", "A170")
-
 df2 <- df %>% 
   select(varstoselect)
 df2 %>% dim()
 
 View(df2)
 
+if(!dir.exists("results")){
+  dir.create("results")
+}
+
 sink("results/label_df2.txt")
 df2_labels <- get_label(df2)
 print(df2_labels)
 str(df2)
 sink()
-
-
 
 
 # 6. Data Cleaning
@@ -111,7 +107,6 @@ colSums(is.na(df3))
 
 # 7. Heatmap of Correlations
 cor_matrix <- cor(df3, use = "complete.obs")
-
 pheatmap(cor_matrix, 
          main = "Correlation Heatmap", 
          color = colorRampPalette(c("green", "white", "red"))(100), 
@@ -142,7 +137,6 @@ summary(df4)
 sink()
 
 # Barplots for all the variables
-
 create_barplot <- function(df) {
   n <- dim(df)[2]
   if(!dir.exists("/images")) {dir.create("/images")} 
@@ -162,6 +156,4 @@ create_barplot <- function(df) {
     print(f) 
   }
 }
-
-
 create_barplot(df4)

@@ -68,5 +68,16 @@ if(grades[x] == "A"){
 }
 
   
+
+purchases = 80
+if(purchases >= 100){
+  discount = purchases * 5 / 100
+  final_price = (purchases - discount)
+  print(final_price)
+}else{
+  discount = purchases * 10 / 100
+  final_price = (purchases - discount)
+  print(final_price)
+}
   
   
