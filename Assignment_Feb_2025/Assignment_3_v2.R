@@ -139,7 +139,7 @@ sink()
 # Barplots for all the variables
 create_barplot <- function(df) {
   n <- dim(df)[2]
-  if(!dir.exists("/images")) {dir.create("/images")} 
+  if(!dir.exists("images")) {dir.create("images")} 
   
   for (i in 1:n) {
     var <- df[, i]
