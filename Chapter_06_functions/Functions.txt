@@ -1,0 +1,65 @@
+# Recursive Functions
+----------------------
+addition = function(n){
+	# Base case
+	if(n == 0 | n == 1){
+		return(n)
+	}
+	return(addition(n-1)+n)
+}
+first10 = addition(10)
+print(first10)
+addition(0)
+
+# Recursion
+# Problem 1
+fib = function(n){
+	# Corner Case
+    if(n < 0){
+        print("n can't be negative")
+        retunr(0)
+    }
+	# Base case
+	if(n == 0 | n == 1)
+		return(1)
+	return(fib(n-1) + fib(n-2))
+}
+fib(5)
+fib(10)
+fib(20)
+fib(-1)
+
+# Problem 2
+# for loop
+vec = c(32,2, 4)
+for(i in vec){
+    print(i)
+}
+
+squad.sum = function(vec = c(0)){
+	total = 0
+	for(i in vec){
+		total = total+i^2
+	}
+	return(total)
+}
+squad.sum(c(32,11,44,33))
+
+sum(vec^2)
+
+
+# Problem 3: Check prime number
+is_prime = function(num){
+	if(num <= 1) return(F)
+	for(i in 2:sqrt(num)){
+		if(num %% i == 0) return(F)
+	}
+	return(T)
+}
+is_prime(17)
+is_prime(18)
+
+
+
+
+
