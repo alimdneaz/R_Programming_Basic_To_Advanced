@@ -35,7 +35,7 @@ library(readxl)
 Excel_data <- read_excel("Excel_data.xlsx")
 View(Excel_data)
 
-
+summary(df)
 # sink()
 sink("output.txt")
 head(df)
@@ -55,3 +55,24 @@ data()
 df = mtcars
 df
 write.csv(mtcars, "mtcars.csv")
+
+
+# Problem 1:
+df <- read.csv("./filtered_data.csv", header = T, row.names = 1)
+View(df)
+# Problem 2
+samry <- summary(df)
+write.table(samry,
+            "summary_output.txt")
+
+
+###### Advaned Topics ###########
+unzip("./data.zip")
+df <- read.csv("./data/12_rna_gene_metadata.csv")
+mygz <- gzfile("your_file.csv.gz", "rt")
+data_csv <- read.csv(mygz)
+
+# Reading json files
+library(jsonlite)
+data <- fromJSON("./sells.json")
+head(data)

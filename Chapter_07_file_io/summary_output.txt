@@ -1,0 +1,4 @@
+"  gene_id" " gene_name"
+"" "Length:60660      " "Length:60660      "
+"" "Class :character  " "Class :character  "
+"" "Mode  :character  " "Mode  :character  "

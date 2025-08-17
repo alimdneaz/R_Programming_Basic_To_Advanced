@@ -61,12 +61,13 @@ if( x <= 5){
 # ctrl + shift + c: for commenting
   
 
-x <- 10
-if(x < 0){
+x <- 11
+if(x < 0 && x >10){
   print("x is negative")
+  print("x is greater than 10")
 }else if(x == 0){
   print("x is zero")
-} else{
+}else{
   print("x is positive")
 }
 

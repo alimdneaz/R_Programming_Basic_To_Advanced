@@ -1,31 +1,24 @@
-                   X source type score
-1 ENSG00000000003.15 HAVANA gene    NA
-2  ENSG00000000005.6 HAVANA gene    NA
-3 ENSG00000000419.13 HAVANA gene    NA
-4 ENSG00000000457.14 HAVANA gene    NA
-5 ENSG00000000460.17 HAVANA gene    NA
-6 ENSG00000000938.13 HAVANA gene    NA
-  phase            gene_id      gene_type
-1    NA ENSG00000000003.15 protein_coding
-2    NA  ENSG00000000005.6 protein_coding
-3    NA ENSG00000000419.13 protein_coding
-4    NA ENSG00000000457.14 protein_coding
-5    NA ENSG00000000460.17 protein_coding
-6    NA ENSG00000000938.13 protein_coding
-  gene_name level    hgnc_id
-1    TSPAN6     2 HGNC:11858
-2      TNMD     2 HGNC:17757
-3      DPM1     2  HGNC:3005
-4     SCYL3     2 HGNC:19285
-5  C1orf112     2 HGNC:25565
-6       FGR     2  HGNC:3697
-           havana_gene
-1 OTTHUMG00000022002.2
-2 OTTHUMG00000022001.2
-3 OTTHUMG00000032742.2
-4 OTTHUMG00000035941.6
-5 OTTHUMG00000035821.9
-6 OTTHUMG00000003516.3
+                   X source type score phase
+1 ENSG00000000003.15 HAVANA gene    NA    NA
+2  ENSG00000000005.6 HAVANA gene    NA    NA
+3 ENSG00000000419.13 HAVANA gene    NA    NA
+4 ENSG00000000457.14 HAVANA gene    NA    NA
+5 ENSG00000000460.17 HAVANA gene    NA    NA
+6 ENSG00000000938.13 HAVANA gene    NA    NA
+             gene_id      gene_type gene_name level
+1 ENSG00000000003.15 protein_coding    TSPAN6     2
+2  ENSG00000000005.6 protein_coding      TNMD     2
+3 ENSG00000000419.13 protein_coding      DPM1     2
+4 ENSG00000000457.14 protein_coding     SCYL3     2
+5 ENSG00000000460.17 protein_coding  C1orf112     2
+6 ENSG00000000938.13 protein_coding       FGR     2
+     hgnc_id          havana_gene
+1 HGNC:11858 OTTHUMG00000022002.2
+2 HGNC:17757 OTTHUMG00000022001.2
+3  HGNC:3005 OTTHUMG00000032742.2
+4 HGNC:19285 OTTHUMG00000035941.6
+5 HGNC:25565 OTTHUMG00000035821.9
+6  HGNC:3697 OTTHUMG00000003516.3
       X                source         
  Length:60660       Length:60660      
  Class :character   Class :character  
@@ -33,34 +26,27 @@
                                       
                                       
                                       
-     type            score        
- Length:60660       Mode:logical  
- Class :character   NA's:60660    
- Mode  :character                 
-                                  
-                                  
-                                  
-  phase           gene_id         
- Mode:logical   Length:60660      
- NA's:60660     Class :character  
-                Mode  :character  
-                                  
-                                  
-                                  
-  gene_type          gene_name        
+     type            score          phase        
+ Length:60660       Mode:logical   Mode:logical  
+ Class :character   NA's:60660     NA's:60660    
+ Mode  :character                                
+                                                 
+                                                 
+                                                 
+   gene_id           gene_type        
  Length:60660       Length:60660      
  Class :character   Class :character  
  Mode  :character   Mode  :character  
                                       
                                       
                                       
-     level        hgnc_id         
- Min.   :1.00   Length:60660      
- 1st Qu.:1.00   Class :character  
- Median :2.00   Mode  :character  
- Mean   :1.85                     
- 3rd Qu.:2.00                     
- Max.   :3.00                     
+  gene_name             level        hgnc_id         
+ Length:60660       Min.   :1.00   Length:60660      
+ Class :character   1st Qu.:1.00   Class :character  
+ Mode  :character   Median :2.00   Mode  :character  
+                    Mean   :1.85                     
+                    3rd Qu.:2.00                     
+                    Max.   :3.00                     
  havana_gene       
  Length:60660      
  Class :character  
